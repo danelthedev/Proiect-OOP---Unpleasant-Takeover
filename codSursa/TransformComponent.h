@@ -86,4 +86,11 @@ public:
 		this->position.x = x;
 		this->position.y = y;
 	}
+	
+	void setPos(int x, int y, int rot)
+	{
+		this->position.x = x;
+		this->position.y = y;
+		this->rot = rot;
+	}
 };
